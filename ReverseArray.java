@@ -7,15 +7,16 @@ public class ReverseArray{
         while(start<end){
             int temp = arr[start];
             arr[start] = arr[end];
-            temp = arr[start];
+            arr[end] = temp;
 
             start++;
             end--;
 
+        }
+
             for(int i =0;i<arr.length;i++){
-                System.out.println(i);
+                System.out.println(arr[i]);
             }
         }
-    }
 }
 // time-complexity - O(n) & space-complexity O(1)
