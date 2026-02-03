@@ -5,4 +5,5 @@ public class SecondLargest {
         Arrays.sort(arr);
             System.out.println(arr[arr.length-2]);
         }
-    }
+}
+//time-complexity - O(n log n) due to Array.sort() but optimized approach is O(n).
