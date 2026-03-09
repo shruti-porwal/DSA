@@ -1,4 +1,5 @@
 // by using set approach , which time complexity is 0((n+m)log(n+m)) & space is O(n+m).
+//Using TreeSet simplifies the problem because it automatically removes duplicates and maintains sorted order.
 import java.util.*;
 public class UnionOFsortedArr {
     public static void main(String[] args) {
