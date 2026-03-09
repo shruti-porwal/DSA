@@ -6,7 +6,7 @@ public class Consecutive1_s {
         for(int i = 0;i<arr.length;i++){
             if(arr[i] == 1){
                 count++;
-                max_count = Math.max(max_count,count);
+                max_count = Math.max(max_count,count);// check count>max_count if yes -- return longest consecutiveones.
             }
             else{
                 count = 0;
