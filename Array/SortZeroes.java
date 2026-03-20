@@ -21,3 +21,4 @@ public class SortZeroes {
         System.out.println(Arrays.toString(arr));
     }
 }
+// T.C-- O(n) & S.C -- O(1).
